@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900 p-8">
@@ -11,8 +9,12 @@ export default function Home() {
           and act on the metrics that matter most.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button className="text-lg px-6 py-3">Try Dashhound Free</Button>
-          <Button variant="outline" className="text-lg px-6 py-3">View Sample Dashboard</Button>
+          <button className="bg-black text-white text-lg px-6 py-3 rounded">
+            Try Dashhound Free
+          </button>
+          <button className="border border-black text-black text-lg px-6 py-3 rounded">
+            View Sample Dashboard
+          </button>
         </div>
       </section>
 
@@ -60,15 +62,21 @@ export default function Home() {
           or $499 per user / year
         </p>
         <p className="mb-6">No feature gates. No add-ons. Just full access to the smartest SaaS dashboard.</p>
-        <Button className="text-lg px-6 py-3">Start Free – No Credit Card Needed</Button>
+        <button className="bg-black text-white text-lg px-6 py-3 rounded">
+          Start Free – No Credit Card Needed
+        </button>
       </section>
 
       {/* Final CTA */}
       <section className="max-w-4xl mx-auto py-16 border-t border-gray-200 text-center">
         <h2 className="text-3xl font-semibold mb-4">Ready to Level Up Your SaaS Metrics?</h2>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button className="text-lg px-6 py-3">Start Free</Button>
-          <Button variant="outline" className="text-lg px-6 py-3">Schedule a Demo</Button>
+          <button className="bg-black text-white text-lg px-6 py-3 rounded">
+            Start Free
+          </button>
+          <button className="border border-black text-black text-lg px-6 py-3 rounded">
+            Schedule a Demo
+          </button>
         </div>
       </section>
     </main>
