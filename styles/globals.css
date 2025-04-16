@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Dashhound custom styles */
+/* Custom Dashhound style overrides */
 body {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   background-color: #f9fafb;
   color: #111827;
 }
