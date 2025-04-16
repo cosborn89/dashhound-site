@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Dashhound – Understand Your SaaS Metrics</title>
         <meta name="description" content="AI-powered dashboards and insights for SaaS companies" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
       </Head>
 
